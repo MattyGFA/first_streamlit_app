@@ -4,7 +4,7 @@ streamlit.title('Mats Diner')
 
 streamlit.header('Breakfast Menu')
 
-streamlit.text('Sausage, Bacon, Egg (Done your way), Beans, Mushrooms, Fried Bread')
+streamlit.text('Sausage, Bacon, Eggs(Done your way), Beans, Mushrooms, Fried Bread')
 streamlit.text('B.E.S.T')
 streamlit.text('Toast')
 
