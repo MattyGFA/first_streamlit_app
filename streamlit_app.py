@@ -61,7 +61,7 @@ def get_fruit_load_list():
 def insert_row_snowflake(new_fruit):
     with my_cnx.cursor() as my_cur2:
          if not new_fruit:
-            return "please enter a fruit to add.")   
+            return "Please enter a fruit to add."   
          else: 
             my_cur2.execute("INSERT INTO PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST VALUES ('" + new_fruit +"')")
             return "Thanks for adding " + new_fruit    
